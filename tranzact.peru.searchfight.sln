@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.searchfight", "tranzact.peru.searchfight\tranzact.peru.searchfight.csproj", "{18BD79A7-CB8A-40B4-B5C2-E4FD7A514AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.datalayer", "tranzact.peru.datalayer\tranzact.peru.datalayer.csproj", "{ED89206B-BC7A-4950-BF87-132F02E2164B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.entitylayer", "tranzact.peru.entitylayer\tranzact.peru.entitylayer.csproj", "{03648A3B-193D-4D43-A2DF-F2ABC80F63E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.businesslayer", "tranzact.peru.businesslayer\tranzact.peru.businesslayer.csproj", "{45B696D1-9336-4860-B51E-A77515589FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.CommonLayer", "tranzact.peru.CommonLayer\tranzact.peru.CommonLayer.csproj", "{E1E855DC-9F5A-4291-ACE2-1D6460E18CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tranzact.peru.searchfight.test", "tranzact.peru.searchfight.test\tranzact.peru.searchfight.test.csproj", "{EDEB31B6-65EB-4093-A3AA-AAFE8D3B1686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BD79A7-CB8A-40B4-B5C2-E4FD7A514AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BD79A7-CB8A-40B4-B5C2-E4FD7A514AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BD79A7-CB8A-40B4-B5C2-E4FD7A514AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BD79A7-CB8A-40B4-B5C2-E4FD7A514AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED89206B-BC7A-4950-BF87-132F02E2164B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED89206B-BC7A-4950-BF87-132F02E2164B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED89206B-BC7A-4950-BF87-132F02E2164B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED89206B-BC7A-4950-BF87-132F02E2164B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03648A3B-193D-4D43-A2DF-F2ABC80F63E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03648A3B-193D-4D43-A2DF-F2ABC80F63E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03648A3B-193D-4D43-A2DF-F2ABC80F63E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03648A3B-193D-4D43-A2DF-F2ABC80F63E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B696D1-9336-4860-B51E-A77515589FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B696D1-9336-4860-B51E-A77515589FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B696D1-9336-4860-B51E-A77515589FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B696D1-9336-4860-B51E-A77515589FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E855DC-9F5A-4291-ACE2-1D6460E18CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E855DC-9F5A-4291-ACE2-1D6460E18CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E855DC-9F5A-4291-ACE2-1D6460E18CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E855DC-9F5A-4291-ACE2-1D6460E18CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEB31B6-65EB-4093-A3AA-AAFE8D3B1686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEB31B6-65EB-4093-A3AA-AAFE8D3B1686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEB31B6-65EB-4093-A3AA-AAFE8D3B1686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEB31B6-65EB-4093-A3AA-AAFE8D3B1686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B78B1A-94A6-45E1-89C1-FEB9CE8F3876}
+	EndGlobalSection
+EndGlobal
