@@ -21,15 +21,32 @@ namespace tranzact.peru.searchfight
                 if (args.Length == 0)
                 {
                     Console.WriteLine("Enter your query: ");
-                    args = Console.ReadLine()?.Split(' ');
+                    var args2 = Console.ReadLine();
+
+                    var par = Regex.Matches(args2, @"[\""].+?[\""]|[^ ]+")
+                             .Cast<Match>()
+                             .Select(m => m.Value)
+                             .ToList();
+
+                    foreach (string item in par)
+                    {
+
+                        if (item.IndexOf("\t") > 0)
+                        {
+                            item.Replace("\t", "");
+                        }
+
+
+                    }
+                    Console.WriteLine("Loading...");
+
+                    var resultData = await objSearchEngine.GetSearchGeneralEngine(par?.ToList());
+
+                    Console.Clear();
+                    Console.WriteLine(resultData);
                 }
 
-                Console.WriteLine("Loading...");
-
-                var resultData = await objSearchEngine.GetSearchGeneralEngine(args?.ToList());
-
-                Console.Clear();
-                Console.WriteLine(resultData);
+               
             }
             catch (SearchFightEngineException ex)
             {
